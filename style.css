@@ -2,8 +2,10 @@
     font-family: "Figtree";
     src: url("fonts/Figtree-VariableFont_wght.ttf") format("opentype");
 }
+body {
+    font-family: "Figtree", "Arial", serif;
+}
 
 h1 {
     text-align: center;
-    font-family: "Figtree", serif;
 }
