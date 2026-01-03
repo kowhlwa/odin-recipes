@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Figtree";
+    src: url("fonts/Figtree-VariableFont_wght.ttf") format("opentype");
+}
+
+h1 {
+    text-align: center;
+    font-family: "Figtree", serif;
+}
