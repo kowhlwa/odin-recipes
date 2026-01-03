@@ -4,4 +4,4 @@ Business Administration.
  
 This is my first project in my way to becoming a proper full-stack developer!
 
-This HTML-only project is a basic recipe website.
+This HTML and CSS project is a basic recipe website.
