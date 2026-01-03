@@ -4,8 +4,14 @@
 }
 body {
     font-family: "Figtree", "Arial", serif;
+    text-align: center;
 }
 
-h1 {
-    text-align: center;
+ul {
+    padding-inline-start: 0px;
+}
+
+li {
+    display: inline-block;
+    padding: 40px;
 }
