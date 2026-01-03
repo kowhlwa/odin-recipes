@@ -7,14 +7,52 @@ body {
     text-align: center;
 }
 
-ul {
-    padding-inline-start: 0px;
+h1, ul {
+    background-color: #e2dded;
+    font-weight: normal;
 }
 
-li {
+h1 {
+    color: #3c0aa8;
+    margin: 0px;
+    padding: 25px 0px 25px 0px;
+}
+
+ul {
+    margin-top: 0px;
+    padding-inline-start: 0px;
+    padding-bottom: 10px;
+}
+
+.card {
     display: inline-block;
     padding: 40px;
-    border: 1px solid black;
+    border: 0.5px solid #2c077a;
+    background-color: #f2f5fa;
+    /* Initial flat state */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+    /* Smooth elevation */
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.card:hover {
+    background-color: #a0a6fa;
+    transition: background-color 0.3s ease;
+    /* Subtle lift */
+    box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.08),
+    0 10px 15px rgba(0, 0, 0, 0.06);
+}
+
+a {
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+/* When clicking the link, prevents it from turning red, but also turns card slightly darker for a bit. */
+a:active, .card:active {
+    color: inherit;
+    background-color: #767ef5;
 }
 
 .pic {
